@@ -1,0 +1,60 @@
+{
+  "cars": [
+    {
+      "name": "Mazda",
+      "model": "Turbo",
+      "date": "12/09/2017 ::: 14:00:45",
+      "isSold": true,
+      "id": 1
+    },
+    {
+      "name": "BMW",
+      "model": "X6",
+      "date": "18/05/2014 ::: 16:23:45",
+      "isSold": true,
+      "id": 2
+    },
+    {
+      "name": "Toyota",
+      "model": "Corolla",
+      "date": "27/05/2011 ::: 06:30:00",
+      "isSold": false,
+      "id": 3
+    },
+    {
+      "name": "Mitsubishi",
+      "model": "Space",
+      "date": "16/01/2020 ::: 12:17:18",
+      "isSold": false,
+      "id": 4
+    },
+    {
+      "name": "Mersedes",
+      "model": "Benz",
+      "date": "16/01/2020 ::: 01:39:13",
+      "isSold": false,
+      "id": 5
+    },
+    {
+      "name": "Lamborgini",
+      "model": "Star",
+      "date": "16/01/2020 ::: 08:50:40",
+      "isSold": false,
+      "id": 7
+    },
+    {
+      "name": "Tesla",
+      "model": "Eco",
+      "date": "16/01/2020 ::: 08:54:31",
+      "isSold": true,
+      "id": 8
+    },
+    {
+      "name": "Lada",
+      "model": "Kalina",
+      "date": "16/01/2020 ::: 08:54:31",
+      "isSold": false,
+      "id": 9
+    }
+  ]
+}
