@@ -1,10 +1,13 @@
 import {Injectable} from '@angular/core';
+// --------------NgRx--------------------
 import {Actions, Effect, ofType} from '@ngrx/effects';
-import {Car} from '../models/car.model';
 import {AddCar, CAR_ACTION} from '../actions/cars.actions';
-import {CarsServices} from '../../services/cars.services';
-import { switchMap, mergeMap } from 'rxjs/operators';
+// --------------RxJs--------------------
 import {Observable} from 'rxjs';
+import { switchMap, mergeMap } from 'rxjs/operators';
+// --------------------------------------
+import {CarsServices} from '../../services/cars.services';
+import {Car} from '../models/car.model';
 
 @Injectable()
 export class CarsEffects {

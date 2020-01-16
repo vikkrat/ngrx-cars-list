@@ -1,9 +1,12 @@
-import {Component, OnInit} from '@angular/core';
+import { Component, OnInit } from '@angular/core';
+// --------------NgRx--------------------
+import { Store } from '@ngrx/store';
+import { AppState } from './store/state/app.state';
+import { CarState } from './store/models/state.model';
+// --------------RxJs--------------------
+import { Observable } from 'rxjs';
+// --------------------------------------
 import { Car } from './store/models/car.model';
-import {Store} from '@ngrx/store';
-import {AppState} from './store/state/app.state';
-import {Observable} from 'rxjs';
-import {CarState} from './store/models/state.model';
 
 @Component({
   selector: 'app-root',
@@ -20,17 +23,7 @@ export class AppComponent implements OnInit {
   }
 
   ngOnInit(): void {
-    // this.store.select('carPage').subscribe(({cars}) => this.cars = cars);
     this.carState = this.store.select('carPage');
   }
-  //
-  // onAdd(car: Car) {
-  //   return this.cars.push(car);
-  // }
-  //
-  // onDelete(car: Car) {
-  //   return this.cars = this.cars.filter( c => c.id !== car.id);
-  // }
-
 
 }
